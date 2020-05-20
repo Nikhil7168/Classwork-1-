@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign-up</title>
+</head>
+<body>
+<h1>"Enter details to sign-up"</h1>
+
+<form action="blog.html" method="GET">
+	<div>
+        <label for="first">First name:</label>
+    <input name="first" id="first" type="text" placeholder="John" required>
+    <br/>
+    <br/>
+    <label for="last">Second name:</label>
+    <input name="second" id="second" type="text" placeholder="Smith" required>	
+
+    </div>
+<br/>
+<br/>
+<div>
+	<label>
+		Email:
+		 <input type="email" name="email" placeholder="Your e-mail" required>
+	</label>
+     <br/>
+     <br/>
+	<label>
+		Password:
+		 <input type="password" name="password" pattern=".{5,10}" required title="Password muss between 5 to 10 char.">
+	</label>
+</div>
+
+<br/>
+<br/>
+
+<div>
+ <P>Sslect your gender</P>
+ <input type="radio" id="male" name="gender"  value ="male">
+ <label for="male">Male</label>  <br/>  
+
+ <input type="radio" id="female" name="gender"  value ="female">
+ <label for="female">Female</label> <br/>
+
+ <input type="radio" id="other" name="gender" >
+ <label for="other">Other</label> 
+</div>
+<br/>
+<br/>
+
+<div>
+    <label for="birthday">Enter your date of birth</label>
+    <input type="date" id="birthday" name="birthday">
+</div>
+<br/>
+<br/>
+
+<div>
+
+    <input type="submit" value='Submit'>
+
+</div>
+
+</form>
+
+</body>
+</html>
